@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Typography from "@mui/material/Typography";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography variant="body1_medium">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
+      <br />
+      <Typography variant="body2_medium">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
+      <br />
+      <Typography variant="p1_error">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
+      <br />
+      <Typography variant="p1_italic">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
+      <br />
+      <Typography variant="p2_bold">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
+      <br />
+      <Typography variant="p2_highlighted">
+        Lorem Ipsum is simply dummy text of the industry.
+      </Typography>
     </div>
   );
 }
